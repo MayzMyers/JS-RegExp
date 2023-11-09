@@ -55,3 +55,4 @@ function task5() {
   let str = prompt("Введите строку");
   isLetters(str);
 }
+
