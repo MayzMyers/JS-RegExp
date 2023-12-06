@@ -1,7 +1,7 @@
 function task1() {
   function isURL(str) {
     let re =
-      /^((http|https):\/\/)?(([A-Z0-9][A-Z0-9_-]*)(\.[A-Z0-9][A-Z0-9_-]*)+)/i;
+      /^((http|https):\/\/)?(([A-Z0-9][A-Z0-9_-]*)(\.[A-Z0-9][A-Z0-9_-]*)+$)/i;
     let result = re.test(str);
     return result;
   }
